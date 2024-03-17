@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	
+	<!-- Rugs -->
+	<ThingDef Abstract="True" Name="Nej_CarpetBase" ParentName="FurnitureBase">
+		<altitudeLayer>FloorEmplacement</altitudeLayer>
+		<canOverlapZones>true</canOverlapZones>
+		<passability>Standable</passability>
+		<fillPercent>0</fillPercent>
+		<pathCost>0</pathCost>
+		<thingCategories>
+			<li>BuildingsMisc</li>
+		</thingCategories>
+		<designationCategory>Furniture</designationCategory>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<statBases>
+			<MaxHitPoints>60</MaxHitPoints>
+			<WorkToBuild>400</WorkToBuild>
+			<Mass>8</Mass>
+			<Flammability>1.0</Flammability>
+			<Beauty>5</Beauty>
+		</statBases>
+		<holdsRoof>false</holdsRoof>
+		<fertility>0</fertility>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<building>
+			<isEdifice>false</isEdifice>
+			<ai_neverTrashThis>true</ai_neverTrashThis>
+			<paintable>true</paintable>
+		</building>
+		<rotatable>true</rotatable>
+		<clearBuildingArea>false</clearBuildingArea>
+	</ThingDef>
+	
+	<!-- Woven Rugs -->
+	<!-- <ThingDef ParentName="Nej_CarpetBase">
+		<defName>Nej_WovenRug</defName>
+		<label>Woven Rug</label>
+		<description>A durable rug that makes your room more cozy.</description>
+		<stuffCategories>
+			<li>Fabric</li>
+		</stuffCategories>
+		<costStuffCount>50</costStuffCount>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<texPath>Things/WovenRug</texPath>
+			<drawSize>(1,2)</drawSize>
+		</graphicData>
+		<size>(1,2)</size>
+	</ThingDef>
+	
+	<ThingDef ParentName="Nej_CarpetBase">
+		<defName>Nej_WovenRugLarge</defName>
+		<label>Large Woven Rug</label>
+		<description>A large, durable rug that makes your room more cozy.</description>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>800</WorkToBuild>
+			<Mass>10</Mass>
+		</statBases>
+		<stuffCategories>
+			<li>Fabric</li>
+		</stuffCategories>
+		<costStuffCount>80</costStuffCount>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<texPath>Things/WovenRugLarge</texPath>
+			<drawSize>(2.8,1.9)</drawSize>
+		</graphicData>
+		<size>(3,2)</size>
+	</ThingDef> -->
+	
+	
+	<ThingDef ParentName="Nej_CarpetBase">
+		<defName>Nej_BorderDiamondsRugS</defName>
+		<label>Small Diamonds Rug</label>
+		<description>A large, durable rug that makes your room more cozy.</description>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>800</WorkToBuild>
+			<Mass>10</Mass>
+		</statBases>
+		<stuffCategories>
+			<li>Fabric</li>
+		</stuffCategories>
+		<costStuffCount>80</costStuffCount>
+		<graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<texPath>Things/BorderDiamondsRug</texPath>
+			<drawSize>(1.7,1.1)</drawSize>
+		</graphicData>
+		<size>(2,1)</size>
+	</ThingDef>
+	
+	<ThingDef ParentName="Nej_CarpetBase">
+		<defName>Nej_BorderDiamondsRugM</defName>
+		<label>Medium Diamonds Rug</label>
+		<description>A large, durable rug that makes your room more cozy.</description>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>800</WorkToBuild>
+			<Mass>10</Mass>
+		</statBases>
+		<stuffCategories>
+			<li>Fabric</li>
+		</stuffCategories>
+		<costStuffCount>80</costStuffCount>
+		<graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<texPath>Things/BorderDiamondsRug</texPath>
+			<drawSize>(3,2)</drawSize>
+		</graphicData>
+		<size>(3,2)</size>
+	</ThingDef>
+	
+	<ThingDef ParentName="Nej_CarpetBase">
+		<defName>Nej_BorderDiamondsRugL</defName>
+		<label> Large Diamonds Rug</label>
+		<description>A large, durable rug that makes your room more cozy.</description>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>800</WorkToBuild>
+			<Mass>10</Mass>
+		</statBases>
+		<stuffCategories>
+			<li>Fabric</li>
+		</stuffCategories>
+		<costStuffCount>80</costStuffCount>
+		<graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<texPath>Things/BorderDiamondsRug</texPath>
+			<drawSize>(4.1,2.9)</drawSize>
+		</graphicData>
+		<size>(4,3)</size>
+	</ThingDef>
+	
+	<ThingDef ParentName="Nej_CarpetBase">
+		<defName>Nej_BorderRugGeometricS</defName>
+		<label>Small Geometric Rug</label>
+		<description>A large, durable rug that makes your room more cozy.</description>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>800</WorkToBuild>
+			<Mass>10</Mass>
+		</statBases>
+		<stuffCategories>
+			<li>Fabric</li>
+		</stuffCategories>
+		<costStuffCount>80</costStuffCount>
+		<graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<texPath>Things/BorderRugGeometric</texPath>
+			<drawSize>(1.7,1.1)</drawSize>
+		</graphicData>
+		<size>(2,1)</size>
+	</ThingDef>
+	
+	<ThingDef ParentName="Nej_CarpetBase">
+		<defName>Nej_BorderRugGeometricM</defName>
+		<label>Medium Geometric Rug</label>
+		<description>A large, durable rug that makes your room more cozy.</description>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>800</WorkToBuild>
+			<Mass>10</Mass>
+		</statBases>
+		<stuffCategories>
+			<li>Fabric</li>
+		</stuffCategories>
+		<costStuffCount>80</costStuffCount>
+		<graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<texPath>Things/BorderRugGeometric</texPath>
+			<drawSize>(3,2)</drawSize>
+		</graphicData>
+		<size>(3,2)</size>
+	</ThingDef>
+	
+	<ThingDef ParentName="Nej_CarpetBase">
+		<defName>Nej_BorderRugGeometricL</defName>
+		<label> Large Geometric Rug</label>
+		<description>A large, durable rug that makes your room more cozy.</description>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>800</WorkToBuild>
+			<Mass>10</Mass>
+		</statBases>
+		<stuffCategories>
+			<li>Fabric</li>
+		</stuffCategories>
+		<costStuffCount>80</costStuffCount>
+		<graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<texPath>Things/BorderRugGeometric</texPath>
+			<drawSize>(4.1,2.9)</drawSize>
+		</graphicData>
+		<size>(4,3)</size>
+	</ThingDef>
+	
+	<ThingDef ParentName="Nej_CarpetBase">
+		<defName>Nej_PointyRugS</defName>
+		<label>Small Pointy Rug</label>
+		<description>A small, durable rug that makes your room more cozy.</description>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>800</WorkToBuild>
+			<Mass>10</Mass>
+		</statBases>
+		<stuffCategories>
+			<li>Fabric</li>
+		</stuffCategories>
+		<costStuffCount>80</costStuffCount>
+		<graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<texPath>Things/PointyRug</texPath>
+			<drawSize>(1.7,1.1)</drawSize>
+		</graphicData>
+		<size>(2,1)</size>
+	</ThingDef>
+	
+	<ThingDef ParentName="Nej_CarpetBase">
+		<defName>Nej_PointyRugM</defName>
+		<label>Medium Pointy Rug</label>
+		<description>A medium, durable rug that makes your room more cozy.</description>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>800</WorkToBuild>
+			<Mass>10</Mass>
+		</statBases>
+		<stuffCategories>
+			<li>Fabric</li>
+		</stuffCategories>
+		<costStuffCount>80</costStuffCount>
+		<graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<texPath>Things/PointyRug</texPath>
+			<drawSize>(3,2)</drawSize>
+		</graphicData>
+		<size>(3,2)</size>
+	</ThingDef>
+	
+	<ThingDef ParentName="Nej_CarpetBase">
+		<defName>Nej_PointyRugL</defName>
+		<label> Large Pointy Rug</label>
+		<description>A large, durable rug that makes your room more cozy.</description>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>800</WorkToBuild>
+			<Mass>10</Mass>
+		</statBases>
+		<stuffCategories>
+			<li>Fabric</li>
+		</stuffCategories>
+		<costStuffCount>80</costStuffCount>
+		<graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<texPath>Things/PointyRug</texPath>
+			<drawSize>(4.1,2.9)</drawSize>
+		</graphicData>
+		<size>(4,3)</size>
+	</ThingDef>
+	
+	<ThingDef ParentName="Nej_CarpetBase">
+		<defName>Nej_LinesRugS</defName>
+		<label>Small Lines Rug</label>
+		<description>A small, durable rug that makes your room more cozy.</description>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>800</WorkToBuild>
+			<Mass>10</Mass>
+		</statBases>
+		<stuffCategories>
+			<li>Fabric</li>
+		</stuffCategories>
+		<costStuffCount>80</costStuffCount>
+		<graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<texPath>Things/LinesRug</texPath>
+			<drawSize>(1.7,1.1)</drawSize>
+		</graphicData>
+		<size>(2,1)</size>
+	</ThingDef>
+	
+	<ThingDef ParentName="Nej_CarpetBase">
+		<defName>Nej_LinesRugM</defName>
+		<label>Medium Lines Rug</label>
+		<description>A medium, durable rug that makes your room more cozy.</description>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>800</WorkToBuild>
+			<Mass>10</Mass>
+		</statBases>
+		<stuffCategories>
+			<li>Fabric</li>
+		</stuffCategories>
+		<costStuffCount>80</costStuffCount>
+		<graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<texPath>Things/LinesRug</texPath>
+			<drawSize>(3,2)</drawSize>
+		</graphicData>
+		<size>(3,2)</size>
+	</ThingDef>
+	
+	<ThingDef ParentName="Nej_CarpetBase">
+		<defName>Nej_LinesRugL</defName>
+		<label> Large Lines Rug</label>
+		<description>A large, durable rug that makes your room more cozy.</description>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>800</WorkToBuild>
+			<Mass>10</Mass>
+		</statBases>
+		<stuffCategories>
+			<li>Fabric</li>
+		</stuffCategories>
+		<costStuffCount>80</costStuffCount>
+		<graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<texPath>Things/LinesRug</texPath>
+			<drawSize>(4.1,2.9)</drawSize>
+		</graphicData>
+		<size>(4,3)</size>
+	</ThingDef>
+	
+	<ThingDef ParentName="Nej_CarpetBase">
+		<defName>Nej_PeepRugS</defName>
+		<label>Small Peep Rug</label>
+		<description>A small, durable rug that makes your room more cozy.</description>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>800</WorkToBuild>
+			<Mass>10</Mass>
+		</statBases>
+		<stuffCategories>
+			<li>Fabric</li>
+		</stuffCategories>
+		<costStuffCount>80</costStuffCount>
+		<graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<texPath>Things/PeepRug</texPath>
+			<drawSize>(1.7,1.1)</drawSize>
+		</graphicData>
+		<size>(2,1)</size>
+	</ThingDef>
+	
+	<ThingDef ParentName="Nej_CarpetBase">
+		<defName>Nej_PeepRugM</defName>
+		<label>Medium Peep Rug</label>
+		<description>A medium, durable rug that makes your room more cozy.</description>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>800</WorkToBuild>
+			<Mass>10</Mass>
+		</statBases>
+		<stuffCategories>
+			<li>Fabric</li>
+		</stuffCategories>
+		<costStuffCount>80</costStuffCount>
+		<graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<texPath>Things/PeepRug</texPath>
+			<drawSize>(3,2)</drawSize>
+		</graphicData>
+		<size>(3,2)</size>
+	</ThingDef>
+	
+	<ThingDef ParentName="Nej_CarpetBase">
+		<defName>Nej_PeepRugL</defName>
+		<label> Large Peep Rug</label>
+		<description>A large, durable rug that makes your room more cozy.</description>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>800</WorkToBuild>
+			<Mass>10</Mass>
+		</statBases>
+		<stuffCategories>
+			<li>Fabric</li>
+		</stuffCategories>
+		<costStuffCount>80</costStuffCount>
+		<graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<texPath>Things/PeepRug</texPath>
+			<drawSize>(4.1,2.9)</drawSize>
+		</graphicData>
+		<size>(4,3)</size>
+	</ThingDef>
+	
+	<ThingDef ParentName="Nej_CarpetBase">
+		<defName>Nej_TribalDiamondsRugS</defName>
+		<label>Small Tribal Diamonds Rug</label>
+		<description>A small, durable rug that makes your room more cozy.</description>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>800</WorkToBuild>
+			<Mass>10</Mass>
+		</statBases>
+		<stuffCategories>
+			<li>Fabric</li>
+		</stuffCategories>
+		<costStuffCount>80</costStuffCount>
+		<graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<texPath>Things/TribalRugDiamonds</texPath>
+			<drawSize>(1.7,1.1)</drawSize>
+		</graphicData>
+		<size>(2,1)</size>
+	</ThingDef>
+	
+	<ThingDef ParentName="Nej_CarpetBase">
+		<defName>Nej_TribalDiamondsRugM</defName>
+		<label>Medium Tribal Diamonds Rug</label>
+		<description>A medium, durable rug that makes your room more cozy.</description>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>800</WorkToBuild>
+			<Mass>10</Mass>
+		</statBases>
+		<stuffCategories>
+			<li>Fabric</li>
+		</stuffCategories>
+		<costStuffCount>80</costStuffCount>
+		<graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<texPath>Things/TribalRugDiamonds</texPath>
+			<drawSize>(3,2)</drawSize>
+		</graphicData>
+		<size>(3,2)</size>
+	</ThingDef>
+	
+	<ThingDef ParentName="Nej_CarpetBase">
+		<defName>Nej_TribalDiamondsRugL</defName>
+		<label> Large Tribal Diamonds Rug</label>
+		<description>A large, durable rug that makes your room more cozy.</description>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>800</WorkToBuild>
+			<Mass>10</Mass>
+		</statBases>
+		<stuffCategories>
+			<li>Fabric</li>
+		</stuffCategories>
+		<costStuffCount>80</costStuffCount>
+		<graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<texPath>Things/TribalRugDiamonds</texPath>
+			<drawSize>(4.1,2.9)</drawSize>
+		</graphicData>
+		<size>(4,3)</size>
+	</ThingDef>
+	
+	<ThingDef ParentName="Nej_CarpetBase">
+		<defName>Nej_TasslesArrowsS</defName>
+		<label>Small Tassled Arrow Rug</label>
+		<description>A small, durable rug that makes your room more cozy.</description>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>800</WorkToBuild>
+			<Mass>10</Mass>
+		</statBases>
+		<stuffCategories>
+			<li>Fabric</li>
+		</stuffCategories>
+		<costStuffCount>80</costStuffCount>
+		<graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<texPath>Things/TasslesArrows</texPath>
+			<drawSize>(1.7,1.1)</drawSize>
+		</graphicData>
+		<size>(2,1)</size>
+	</ThingDef>
+	
+	<ThingDef ParentName="Nej_CarpetBase">
+		<defName>Nej_TasslesArrowsM</defName>
+		<label>Medium Tassled Arrow Rug</label>
+		<description>A medium, durable rug that makes your room more cozy.</description>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>800</WorkToBuild>
+			<Mass>10</Mass>
+		</statBases>
+		<stuffCategories>
+			<li>Fabric</li>
+		</stuffCategories>
+		<costStuffCount>80</costStuffCount>
+		<graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<texPath>Things/TasslesArrows</texPath>
+			<drawSize>(3,2)</drawSize>
+		</graphicData>
+		<size>(3,2)</size>
+	</ThingDef>
+	
+	<ThingDef ParentName="Nej_CarpetBase">
+		<defName>Nej_TasslesArrowsL</defName>
+		<label> Large Tassled Arrow Rug</label>
+		<description>A large, durable rug that makes your room more cozy.</description>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>800</WorkToBuild>
+			<Mass>10</Mass>
+		</statBases>
+		<stuffCategories>
+			<li>Fabric</li>
+		</stuffCategories>
+		<costStuffCount>80</costStuffCount>
+		<graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<texPath>Things/TasslesArrows</texPath>
+			<drawSize>(4.1,2.9)</drawSize>
+		</graphicData>
+		<size>(4,3)</size>
+	</ThingDef>
+	
+	<ThingDef ParentName="Nej_CarpetBase">
+		<defName>Nej_GeometricFlowersS</defName>
+		<label>Small Geometric Flowers Rug</label>
+		<description>A small, durable rug that makes your room more cozy.</description>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>800</WorkToBuild>
+			<Mass>10</Mass>
+		</statBases>
+		<stuffCategories>
+			<li>Fabric</li>
+		</stuffCategories>
+		<costStuffCount>80</costStuffCount>
+		<graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<texPath>Things/TasslesRugFlowers</texPath>
+			<drawSize>(1.7,1.1)</drawSize>
+		</graphicData>
+		<size>(2,1)</size>
+	</ThingDef>
+	
+	<ThingDef ParentName="Nej_CarpetBase">
+		<defName>Nej_GeometricFlowersM</defName>
+		<label>Medium Geometric Flowers Rug</label>
+		<description>A medium, durable rug that makes your room more cozy.</description>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>800</WorkToBuild>
+			<Mass>10</Mass>
+		</statBases>
+		<stuffCategories>
+			<li>Fabric</li>
+		</stuffCategories>
+		<costStuffCount>80</costStuffCount>
+		<graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<texPath>Things/TasslesRugFlowers</texPath>
+			<drawSize>(3,2)</drawSize>
+		</graphicData>
+		<size>(3,2)</size>
+	</ThingDef>
+	
+	<ThingDef ParentName="Nej_CarpetBase">
+		<defName>Nej_GeometricFlowersL</defName>
+		<label> Large Geometric Flowers Rug</label>
+		<description>A large, durable rug that makes your room more cozy.</description>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>800</WorkToBuild>
+			<Mass>10</Mass>
+		</statBases>
+		<stuffCategories>
+			<li>Fabric</li>
+		</stuffCategories>
+		<costStuffCount>80</costStuffCount>
+		<graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<texPath>Things/TasslesRugFlowers</texPath>
+			<drawSize>(4.1,2.9)</drawSize>
+		</graphicData>
+		<size>(4,3)</size>
+	</ThingDef>
+	
+	<ThingDef ParentName="Nej_CarpetBase">
+		<defName>Nej_MOrugL</defName>
+		<label> Large MO Rug</label>
+		<description>A large, durable rug that makes your room more cozy.</description>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>800</WorkToBuild>
+			<Mass>10</Mass>
+		</statBases>
+		<stuffCategories>
+			<li>Fabric</li>
+		</stuffCategories>
+		<costStuffCount>80</costStuffCount>
+		<graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<texPath>Things/MO_rug</texPath>
+			<drawSize>(4.1,2.9)</drawSize>
+		</graphicData>
+		<size>(4,3)</size>
+	</ThingDef>
+
+</Defs>
+
